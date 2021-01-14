@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Vertical Timeline</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="timeline">
+				<ul>
+					<li>
+						<div class="timeline-content">
+                            <h2 class="date">22th Sep, 2020</h2>
+							<h1>Heading 1</h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi deleniti reiciendis
+								explicabo esse laborum veniam.
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="timeline-content">
+                            <h2 class="date">22th Sep, 2020</h2>
+							<h1>Heading 2</h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi deleniti reiciendis
+								explicabo esse laborum veniam.
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="timeline-content">
+                            <h2 class="date">22th Sep, 2020</h2>
+							<h1>Heading 3</h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi deleniti reiciendis
+								explicabo esse laborum veniam.
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="timeline-content">
+                            <h2 class="date">22th Sep, 2020</h2>
+							<h1>Heading 4</h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi deleniti reiciendis
+								explicabo esse laborum veniam.
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="timeline-content">
+                            <h2 class="date">22th Sep, 2020</h2>
+							<h1>Heading 5</h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi deleniti reiciendis
+								explicabo esse laborum veniam.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+        </div>
+        <script src="vanilla-tilt.min.js" ></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".timeline-content"),{
+                max:25,
+                speed:5000
+            });
+        </script>
+	</body>
+</html>
